@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Php - 16/04</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<style>
+ .form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container form {
+    width: '25%';
+}
+</style>
+
+<body>
+    <h1 style="text-align: center;">Idade</h1>
+    <br>
+    <div class="form-container">
+    <form action="simples.php" method="post" name="idade" class="col-4 shadow p-3 mb-5 bg-white rounded table table-sm w-7">
+    <div class="row">
+        <div class="col"> <br>
+            <label for="">Digite sua idade:</label>
+            <input type="number" name="idade" class="form-control">
+            <br><br>
+            <button type="submit" class="btn btn-info">Enviar</button>
+            <br>
+            <br>
+        </div>
+    </div>
+    </div>       
+    </form>
+</body>
+</html>

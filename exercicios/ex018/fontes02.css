@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@700&display=swap');
+@font-face {
+    font-family: vintage;
+    src: url('fontes/Batuphat Script.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    color: white;
+    background-color: #0B0C0D ;
+}
+h1{
+    font-family: vintage, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+}
+p{
+    color: white;
+    font-family: Kalnia, 'Times New Roman', Times, serif;
+}
